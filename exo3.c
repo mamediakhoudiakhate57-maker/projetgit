@@ -24,6 +24,15 @@ int main ()
     {
         printf("ce nombre n'est pas parfait:");
     }
+   while(somme < n) {
+        somme = somme + i;
+        i++;
+    }
+
+    if(somme == n)
+        printf("Le nombre est triangulaire\n");
+    else
+        printf("Le nombre n'est pas triangulaire\n");
 
 
     return 0;
